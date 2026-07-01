@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+
+    <style>
+        body{
+            background:#0f172a;
+            color:white;
+            font-family:Arial;
+            text-align:center;
+            padding-top:60px;
+        }
+
+        .card{
+            display:inline-block;
+            width:220px;
+            padding:20px;
+            margin:15px;
+            background:#1e293b;
+            border-radius:10px;
+            box-shadow:0px 0px 10px rgba(255,255,255,0.2);
+        }
+
+        button{
+            padding:10px 20px;
+            margin-top:10px;
+            border:none;
+            border-radius:5px;
+            background:#38bdf8;
+            color:white;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#0284c7;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<h1>Welcome to Your Dashboard</h1>
+
+<p>Select your learning path</p>
+
+<div class="card">
+    <h2>Python</h2>
+    <p>Learn Python programming from beginner to advanced.</p>
+</div>
+
+<div class="card">
+    <h2>Artificial Intelligence</h2>
+    <p>Explore AI concepts and real-world applications.</p>
+</div>
+
+<div class="card">
+    <h2>Machine Learning</h2>
+    <p>Build predictive models using ML algorithms.</p>
+</div>
+
+<br><br>
+
+<button onclick="location.href='/recommendation'">
+View Recommendations
+</button>
+
+</body>
+</html>
